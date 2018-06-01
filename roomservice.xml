@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- add gitlab remote -->
+  <remote fetch="https://gitlab.com" name="gitlab" />
+
+  <!-- meliusltexx device -->
+  <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-15.1" />
+  <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
+  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="gitlab" revision="lineage-15.1" />
+
+  <!-- fetch serrano for development purposes since serrano is very similar to melius but melius is not supported by lineageos officially -->
+  <project name="LineageOS/android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="lineage-15.1" />
+
+  <!-- devicesettings -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
+
+  <!-- flipflap -->
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-15.1"/>
+
+  <!-- twrp -->
+  <project name="ngc4622/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.1" />
+
+  <!-- microg -->
+  <project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />
+
+  <!-- build lineage automatically -->
+  <project name="ngc4622/android_lineage_autobuild" path="lineage/autobuild" remote="github" revision="master" />
+
+  <!-- my  build flavor, mainly patches to get microg working -->
+  <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-15.1" />
+  
+  <!-- remove MacOS files -->
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
