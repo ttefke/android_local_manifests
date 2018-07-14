@@ -13,10 +13,6 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
   <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
 
-  <!-- fetch serrano for development purposes since serrano is very similar to melius but melius is not supported by lineageos officially -->
-  <project name="LineageOS/android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="lineage-15.1" />
-
   <!-- devicesettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
