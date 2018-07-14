@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- oce device -->
+  <project name="ngc4622/android_device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-15.1" />
+
   <!-- meliusltexx device -->
   <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-15.1" />
   <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-15.1" />
