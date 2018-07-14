@@ -6,7 +6,7 @@
   <!-- meliusltexx device -->
   <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-15.1" />
   <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
+  <project name="ngc4622/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
