@@ -11,7 +11,7 @@
   <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
-  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="8.1.x" />
+  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
 
   <!-- fetch serrano for development purposes since serrano is very similar to melius but melius is not supported by lineageos officially -->
   <project name="LineageOS/android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="lineage-15.1" />
