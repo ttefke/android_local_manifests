@@ -26,9 +26,6 @@
   <!-- microg -->
   <project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />
 
-  <!-- build lineage automatically -->
-  <project name="ngc4622/android_lineage_autobuild" path="lineage/autobuild" remote="github" revision="master" />
-
   <!-- my  build flavor, mainly patches to get microg working -->
   <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-15.1" />
   
