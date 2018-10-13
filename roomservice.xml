@@ -25,7 +25,11 @@
 
   <!-- my  build flavor, mainly patches to get microg working -->
   <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-16.0" />
-  
+
+  <!-- bt-caf -->
+  <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <project name="ngc4622/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom,pdk" remote="github" revision="lineage-16.0-caf" />
+
   <!-- remove MacOS files -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
