@@ -4,6 +4,9 @@
   <project name="ngc4622/android_device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-15.1" />
   <project name="ngc4622/android_vendor_htc_oce" path="vendor/htc/oce" remote="github" revision="lineage-15.1" />
 
+  <!-- gta2xlwifi device -->
+  <project name="ngc4622/android_kernel_samsung_gta2xlwifi" path="kernel/samsung/gta2xlwifi" remote="github" revision="lineage-15.1" />
+
   <!-- meliusltexx device -->
   <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-15.1" />
   <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-15.1" />
