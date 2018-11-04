@@ -12,7 +12,7 @@
   <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
-  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="master" />
+  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="ef7bc2f9dec4cfecb2d59ac416bedd433487016b" />
 
   <!-- devicesettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
