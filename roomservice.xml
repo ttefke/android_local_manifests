@@ -5,15 +5,6 @@
   <project name="TARKZiM/android_kernel_htc_oce" path="kernel/htc/oce" remote="github" revision="lineage-16.0" />
   <project name="TARKZiM/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-16.0" />
 
-  <!-- meliusltexx device -->
-  <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-16.0" />
-  <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
-  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
-
   <!-- devicesettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
