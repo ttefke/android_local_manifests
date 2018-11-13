@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- oce device -->
-  <project name="TARKZiM/device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-16.0" />
+  <project name="ngc4622/device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-16.0" />
   <project name="TARKZiM/android_kernel_htc_oce" path="kernel/htc/oce" remote="github" revision="lineage-16.0" />
   <project name="TARKZiM/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-16.0" />
 
