@@ -5,6 +5,11 @@
   <project name="TARKZiM/android_kernel_htc_oce" path="kernel/htc/oce" remote="github" revision="lineage-16.0" />
   <project name="TARKZiM/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-16.0" />
 
+  <!-- gta2xlwifi device -->
+  <project name="ngc4622/android_device_samsung_gta2xlwifi" path="device/samsung/gta2xlwifi" remote="github" revision="lineage-16.0" />
+  <project name="ngc4622/android_kernel_samsung_gta2xlwifi" path="kernel/samsung/gta2xlwifi" remote="github" revision="lineage-16.0" />
+  <project name="ngc4622/android_vendor_samsung_gta2xlwifi" path="vendor/samsung/gta2xlwifi" remote="github" revision="lineage-16.0" />
+
   <!-- devicesettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
