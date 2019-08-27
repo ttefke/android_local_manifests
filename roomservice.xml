@@ -17,7 +17,7 @@
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-16.0"/>
 
   <!-- twrp -->
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />
+  <project name="ngc4622/android_bootable_recovery-twrp" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />
 
   <!-- microg -->
   <project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />
