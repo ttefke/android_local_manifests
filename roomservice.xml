@@ -7,12 +7,6 @@
 
   <!-- twrp -->
   <!--<project name="ngc4622/android_bootable_recovery-twrp" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />-->
-
-  <!-- microg -->
-  <project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />
-
-  <!-- my  build flavor, mainly patches to get microg working -->
-  <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-16.0" />
   
   <!-- remove MacOS files -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
