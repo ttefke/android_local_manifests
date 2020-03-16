@@ -5,13 +5,17 @@
   <project name="TARKZiM/android_kernel_htc_oce" path="kernel/htc/oce" remote="github" revision="lineage-17.1" />
   <project name="TARKZiM/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-17.1" />
 
-  <!-- twrp -->
-  <!--<project name="ngc4622/android_bootable_recovery-twrp" path="bootable/recovery-twrp" remote="github" revision="android-9.0" />-->
+  <!-- melius device -->
+  <project name="sileshn/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-17.1" />
+  <project name="sileshn/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-17.1" />
+  <project name="sileshn/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-17.1" />
+  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   
   <!-- remove MacOS files -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-  <!--<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />-->
-  <!--<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />-->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
