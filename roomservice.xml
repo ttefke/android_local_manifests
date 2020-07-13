@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- oce device -->
-  <project name="ngc4622/android_device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-15.1" />
-  <project name="ngc4622/android_vendor_htc_oce" path="vendor/htc/oce" remote="github" revision="lineage-15.1" />
-
-  <!-- gta2xlwifi device -->
-  <project name="ngc4622/android_kernel_samsung_gta2xlwifi" path="kernel/samsung/gta2xlwifi" remote="github" revision="lineage-15.1" />
-
-  <!-- meliusltexx device -->
-  <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-15.1" />
-  <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
-  <project name="sileshn/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="ef7bc2f9dec4cfecb2d59ac416bedd433487016b" />
+  <!-- dragon device -->
+  <project name="LineageOS/android_device_google_dragon" path="device/google/dragon" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_kernel_google_dragon" path="kernel/google/dragon" remote="github" revision="lineage-15.1" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-15.1" />
 
   <!-- devicesettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
