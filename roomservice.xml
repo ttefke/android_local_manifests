@@ -28,10 +28,10 @@
   <project name="ngc4622/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.1" />
 
   <!-- microg -->
-  <project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />
+  <!--<project name="ngc4622/android_prebuilts_prebuiltapks" path="prebuilts/microg" remote="github" revision="master" />-->
 
   <!-- my  build flavor, mainly patches to get microg working -->
-  <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-15.1" />
+  <!--<project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-15.1" />-->
   
   <!-- remove MacOS files -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
