@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- dragon device -->
+  <project name="ngc4622/android_device_google_dragon" path="device/google/dragon" revision="lineage-17.1" />
+  <project name="ngc4622/android_kernel_google_dragon" path="kernel/google/dragon" revision="lineage-17.1" />
+  <project name="ngc4622/android_vendor_google_dragon" path="vendor/google/dragon" revision="lineage-17.1" />
+
   <!-- oce device -->
   <project name="TARKZiM/device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-17.1" />
   <project name="TARKZiM/android_kernel_htc_oce" path="kernel/htc/oce" remote="github" revision="lineage-17.1" />
