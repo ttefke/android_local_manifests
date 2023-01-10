@@ -5,6 +5,11 @@
   <project name="ttefke/android_kernel_google_dragon" path="kernel/google/dragon" revision="lineage-18.1" />
   <project name="ttefke/android_vendor_google_dragon" path="vendor/google/dragon" revision="lineage-18.1" />
 
+  <!-- FP3 -->
+  <project path="device/fairphone/FP3" remote="github" name="LineageOS/android_device_fairphone_FP3" />
+  <project path="kernel/fairphone/sdm632" remote="github" name="LineageOS/android_kernel_fairphone_sdm632" />
+  <project path="vendor/fairphone" remote="github" name="TheMuppets/proprietary_vendor_fairphone" />
+
   <!-- microG -->
   <project name="ttefke/android_prebuilts_prebuiltapks" path="external/microg" remote="github" revision="master" />
 
