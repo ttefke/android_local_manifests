@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- dragon device -->
-  <project name="ngc4622/android_device_google_dragon" path="device/google/dragon" revision="lineage-17.1" />
-  <project name="ngc4622/android_kernel_google_dragon" path="kernel/google/dragon" revision="lineage-17.1" />
-  <project name="ngc4622/android_vendor_google_dragon" path="vendor/google/dragon" revision="lineage-17.1" />
-
-  <!-- oce device -->
-  <project name="TARKZiM/device_htc_oce" path="device/htc/oce" remote="github" revision="lineage-17.1" />
-  <project name="ngc4622/android_kernel_htc_oce-1" path="kernel/htc/oce" remote="github" revision="lineage-17.1" />
-  <project name="TARKZiM/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-17.1" />
-
-  <!-- melius device -->
-  <project name="ngc4622/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="github" revision="lineage-17.1" />
-  <project name="ngc4622/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-17.1" />
-  <project name="ngc4622/android_device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="github" revision="lineage-17.1" />
-  <project name="ngc4622/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
-  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-17.1" />
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="ttefke/android_device_google_dragon" path="device/google/dragon" revision="lineage-17.1" />
+  <project name="ttefke/android_kernel_google_dragon" path="kernel/google/dragon" revision="lineage-17.1" />
+  <project name="ttefke/android_vendor_google_dragon" path="vendor/google/dragon" revision="lineage-17.1" />
 
   <!-- microG -->
-  <project name="ngc4622/android_prebuilts_prebuiltapks" path="external/microg" remote="github" revision="master" />
+  <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
 
   <!-- my flavor -->
-  <project name="ngc4622/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-17.1" />
+  <project name="ttefke/android_vendor_ngc4622" path="vendor/ngc4622" remote="github" revision="lineage-17.1" />
 
   <!-- remove MacOS files -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
